@@ -1,13 +1,78 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+
+[name='eat'] {
+  margin-left: 20px;
+}
+
+.loginForm {
+  background-color: rgb(247, 239, 239);
+  width: 200px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.loginForm_inp {
+
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm_inp input {
+  margin-bottom: 10px;
+}
+
+.loginFormfalse{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.loginFormfalse button{
+  width: 100px;
+}
+
+.AddContacts{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.AddContacts input{
+  margin-bottom: 10px;
+}
+
+.ContactList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ContactList div{
+ 
+  background-color: rgb(235, 223, 223);
+  border-radius: 10px;
+  padding: 10px;
+  /* margin: 20px; */
+}
+.ContactList_btn{
+  display: flex;
+  justify-content: space-between;
+}
+.ContactList_text{
+  padding: 10px;
+}
+button{
+  margin-right: 10px;
+  width: 70px;
+  height: 20px;
+  border-radius:20px;
+  border:none;
+  background-color: rgb(197, 169, 169);
 }
